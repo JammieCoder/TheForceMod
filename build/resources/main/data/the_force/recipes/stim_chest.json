@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    "EGE",
+    "EEE"
+  ],
+  "key": {
+    "E": {
+      "tag": "minecraft:planks"
+    },
+    "G": {
+      "item": "the_force:trask_chowder"
+    }
+  },
+  "result": {
+    "item": "the_force:stim_chest",
+    "count": 1
+  }
+}

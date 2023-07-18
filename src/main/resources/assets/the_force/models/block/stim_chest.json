@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "minecraft:block/oak_planks",
+    "east": "the_force:block/stim_chest_side",
+    "north": "the_force:block/stim_chest_front",
+    "particle": "the_force:block/stim_chest_front",
+    "south": "the_force:block/stim_chest_side",
+    "up": "the_force:block/stim_chest_top",
+    "west": "the_force:block/stim_chest_front"
+  }
+}

@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: the_force
+Specification-Vendor: James Galjaard
+Specification-Version: 1
+Implementation-Title: TheForceMod
+Implementation-Version: com.gmail.jammiedodger188
+Implementation-Vendor: James Galjaard
+Implementation-Timestamp: 2023-07-11T17:10:25+0100
+
