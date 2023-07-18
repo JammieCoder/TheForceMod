@@ -29,12 +29,12 @@ public class StimBlockMenu extends AbstractContainerMenu {
         this.blockEntity = (StimChestBE) blockEntity;
         this.level = inv.player.level();
 
-        addBEInventorySlots(inv);
+        addBEInventorySlots();
         addPlayerInventory(inv);
         addPlayerHotbar(inv);
     }
 
-    private void addBEInventorySlots(Inventory inv) {
+    private void addBEInventorySlots() {
         //creating slots for the menu
         this.blockEntity.getCapability(ITEM_HANDLER).ifPresent(handler -> {
             for (int y = 0; y < 3; ++y) {
@@ -60,7 +60,7 @@ public class StimBlockMenu extends AbstractContainerMenu {
         Slot quickMovedSlot = this.slots.get(quickMovedSlotIndex);
 
         // If the slot is in the valid range and the slot is not empty
-        if (quickMovedSlot != null && quickMovedSlot.hasItem()) {
+        if (quickMovedSlot.hasItem()) {
             // Get the raw stack to move
             ItemStack rawStack = quickMovedSlot.getItem();
             // Set the slot stack to a copy of the raw stack

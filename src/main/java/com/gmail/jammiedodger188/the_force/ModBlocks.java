@@ -10,7 +10,7 @@ import net.minecraftforge.registries.RegistryObject;
 public class ModBlocks {
     // Create a Deferred Register to hold Blocks which will all be registered under the "the_force" namespace
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, the_force.MODID);
-    public static final RegistryObject<Block> STIM_CHEST = BLOCKS.register("stim_chest", () -> new StimChestBlock());
+    public static final RegistryObject<Block> STIM_CHEST = BLOCKS.register("stim_chest", StimChestBlock::new);
     public static void register(IEventBus eventBus){
         BLOCKS.register(eventBus);
     }

@@ -44,8 +44,7 @@ public class StimChestBlock extends Block implements EntityBlock {
     public void onRemove(BlockState oldState, Level level, BlockPos pos, BlockState newState, boolean isMoving) {
         if(oldState.getBlock() != newState.getBlock()){
             BlockEntity blockEntity = level.getBlockEntity(pos);
-            if(blockEntity instanceof StimChestBE){
-                StimChestBE tempBE = (StimChestBE) blockEntity;
+            if(blockEntity instanceof StimChestBE tempBE){
                 tempBE.drops();
             }
         }
