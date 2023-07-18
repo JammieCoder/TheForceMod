@@ -1,7 +1,5 @@
 package com.gmail.jammiedodger188.the_force.block;
 
-import com.gmail.jammiedodger188.the_force.ModBlockEntities;
-import com.gmail.jammiedodger188.the_force.ModBlocks;
 import com.gmail.jammiedodger188.the_force.block.entity.StimChestBE;
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerPlayer;
@@ -9,8 +7,6 @@ import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.level.LevelReader;
-import net.minecraft.world.level.block.BaseEntityBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.EntityBlock;
 import net.minecraft.world.level.block.RenderShape;
