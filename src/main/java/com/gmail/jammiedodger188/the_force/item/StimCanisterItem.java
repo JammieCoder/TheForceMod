@@ -11,7 +11,7 @@ public class StimCanisterItem extends Item {
         super(new Item.Properties()
                 .food(new FoodProperties.Builder()
                         .nutrition(10)
-                        .effect(() -> new MobEffectInstance(MobEffects.HEAL),1)
+                        .effect(() -> new MobEffectInstance(MobEffects.HEAL),1.0f)
                         .build())
                 .rarity(Rarity.UNCOMMON)
                 .stacksTo(3));}
